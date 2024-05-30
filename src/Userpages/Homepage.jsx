@@ -4,6 +4,10 @@ import Banner from '../User/Component/Banner'
 import Avatarhomepage from '../User/Component/Avatarhomepage'
 import Destinationhomepage from '../User/Component/Destinationhomepage'
 import Popularpackages from '../User/Component/Popularpackages'
+import More from '../User/Component/More'
+import Footer from '../User/Component/Footer'
+import Adv from '../User/Component/Adv'
+import Footermd from '../User/Component/Footermd'
 
 const Homepage = () => {
   return (
@@ -18,10 +22,12 @@ const Homepage = () => {
         <Navbar />
         <Banner />
         <Avatarhomepage />
-        <div className='destination'>
         <Destinationhomepage />
-        </div>
         <Popularpackages />
+        <More />
+        <Adv />
+        <Footer />
+        <Footermd />
       </div>
     </>
   )

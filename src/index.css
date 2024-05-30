@@ -12,8 +12,29 @@
   }
 
   .destination {
-    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, hwb(249 7% 6% / 0.849) 50%);
+    background: linear-gradient(180deg, rgba(1, 80, 144, 0.8) 0%, rgba(1, 111, 104, 0.8) 90%, rgba(255, 255, 255, 0) 10%);
+    /* background: linear-gradient(180deg, rgba(1, 80, 144, 1) 0%, rgba(1, 111, 104, 1) 70%, rgba(255, 255, 255, 0) 100%); */
+
   }
+
+  /* .custom-gradient {
+    background: linear-gradient(90deg, white 50%, transparent 50%), 
+                linear-gradient(94.95deg, rgba(2, 175, 163, 1) 16.61%, rgba(31, 117, 185, 1) 126.63%);
+    background-size: 100% 100%;
+    background-blend-mode: normal;
+} */
+
+.half-gradient {
+  /* background: linear-gradient(180deg, rgba(2, 175, 163, 1) 0%, rgba(2, 175, 163, 1) 50%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%); */
+  /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 30%, rgba(2, 175, 163, 1) 10%, rgba(31, 117, 185) 100%) */
+  background: linear-gradient(94.95deg, #02AFA3 16.61%, #1F75B9 126.63%);
+}
+
+.bg-footerImage {
+  background-image: url('/footerBgMd.svg');
+}
+
+  
   
 
   
