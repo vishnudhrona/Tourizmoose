@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Adv = () => {
   return (
     <div className='bg-advTransparent py-1 hidden md:block relative px-20'>
-      <img className='absolute w-[1090.4px] h-[726.56px] ml-36 left-48' src="/adv.svg" alt="" />
+      <img className='absolute w-[900.4px] h-[726.56px] ml-52 left-48' src="/adv.svg" alt="" />
       <div className='half-gradient h-[423px] mt-52'>
         <div className='flex px-20'>
 
